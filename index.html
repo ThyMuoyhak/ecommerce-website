@@ -111,12 +111,12 @@
     <nav class="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
       <!-- Logo (text + SVG icon) -->
       <a href="#" class="flex items-center gap-2 shrink-0">
-        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+        <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
         </svg>
         <div class="flex flex-col leading-tight">
           <span class="text-xl font-semibold text-gray-900 tracking-tight">YourBrand</span>
-          <span class="text-xs text-blue-600 font-medium khmer-text -mt-0.5">ហាងរបស់យើង</span>
+          <span class="text-xs text-red-600 font-medium khmer-text -mt-0.5">ហាងរបស់យើង</span>
         </div>
       </a>
 
@@ -133,23 +133,23 @@
       <!-- Right icons: search, cart, user -->
       <div class="flex items-center gap-4">
         <!-- Search icon (button) -->
-        <button aria-label="Search" class="text-gray-600 hover:text-blue-600 transition p-1">
+        <button aria-label="Search" class="text-gray-600 hover:text-red-600 transition p-1">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
           </svg>
         </button>
 
         <!-- Cart icon with badge -->
-        <button aria-label="Cart" class="relative text-gray-600 hover:text-blue-600 transition p-1">
+        <button aria-label="Cart" class="relative text-gray-600 hover:text-red-600 transition p-1">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
           </svg>
           <!-- cart badge -->
-          <span id="cart-badge" class="absolute -top-1 -right-1 bg-blue-600 text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">0</span>
+          <span id="cart-badge" class="absolute -top-1 -right-1 bg-red-600 text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">0</span>
         </button>
 
         <!-- User / Login button (desktop) -->
-        <button class="hidden md:flex items-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-full transition shadow-sm" aria-label="Login / Register">
+        <button class="hidden md:flex items-center gap-1.5 bg-red-600 hover:bg-red-700 text-white text-sm font-medium px-4 py-2 rounded-full transition shadow-sm" aria-label="Login / Register">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
           </svg>
@@ -157,7 +157,7 @@
         </button>
 
         <!-- Mobile menu hamburger -->
-        <button id="mobile-menu-btn" class="md:hidden text-gray-700 hover:text-blue-600 p-1" aria-label="Toggle menu" aria-expanded="false">
+        <button id="mobile-menu-btn" class="md:hidden text-gray-700 hover:text-red-600 p-1" aria-label="Toggle menu" aria-expanded="false">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
@@ -168,14 +168,14 @@
     <!-- Mobile menu (dropdown) -->
     <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-100 px-4 py-4 shadow-lg">
       <ul class="flex flex-col gap-3 text-base font-medium text-gray-700">
-        <li><a href="#" class="block py-1 hover:text-blue-600 transition">ទំព័រដើម <span class="text-gray-400 text-sm">/ Home</span></a></li>
-        <li><a href="#" class="block py-1 hover:text-blue-600 transition">ផលិតផល <span class="text-gray-400 text-sm">/ Products</span></a></li>
-        <li><a href="#" class="block py-1 hover:text-blue-600 transition">ប្រភេទ <span class="text-gray-400 text-sm">/ Category</span></a></li>
-        <li><a href="#" class="block py-1 hover:text-blue-600 transition">ម៉ាក <span class="text-gray-400 text-sm">/ Brands</span></a></li>
-        <li><a href="#" class="block py-1 hover:text-blue-600 transition">អំពីយើង <span class="text-gray-400 text-sm">/ About</span></a></li>
-        <li><a href="#" class="block py-1 hover:text-blue-600 transition">ទំនាក់ទំនង <span class="text-gray-400 text-sm">/ Contact</span></a></li>
+        <li><a href="#" class="block py-1 hover:text-red-600 transition">ទំព័រដើម <span class="text-gray-400 text-sm">/ Home</span></a></li>
+        <li><a href="#" class="block py-1 hover:text-red-600 transition">ផលិតផល <span class="text-gray-400 text-sm">/ Products</span></a></li>
+        <li><a href="#" class="block py-1 hover:text-red-600 transition">ប្រភេទ <span class="text-gray-400 text-sm">/ Category</span></a></li>
+        <li><a href="#" class="block py-1 hover:text-red-600 transition">ម៉ាក <span class="text-gray-400 text-sm">/ Brands</span></a></li>
+        <li><a href="#" class="block py-1 hover:text-red-600 transition">អំពីយើង <span class="text-gray-400 text-sm">/ About</span></a></li>
+        <li><a href="#" class="block py-1 hover:text-red-600 transition">ទំនាក់ទំនង <span class="text-gray-400 text-sm">/ Contact</span></a></li>
         <li class="pt-2 border-t border-gray-100">
-          <button class="w-full bg-blue-600 text-white py-2 rounded-full text-sm font-medium khmer-text">ចូល / ចុះឈ្មោះ</button>
+          <button class="w-full bg-red-600 text-white py-2 rounded-full text-sm font-medium khmer-text">ចូល / ចុះឈ្មោះ</button>
         </li>
       </ul>
     </div>
@@ -195,7 +195,7 @@
               <div class="max-w-lg text-white space-y-4">
                 <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight khmer-text">សូមស្វាគមន៍មកកាន់ហាងរបស់យើង</h1>
                 <p class="text-sm sm:text-base md:text-lg opacity-90 khmer-text">ផលិតផលគុណភាពខ្ពស់ តម្លៃសមរម្យ សម្រាប់អ្នកទាំងអស់គ្នា។</p>
-                <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2.5 rounded-full transition shadow-lg khmer-text">ទិញឥឡូវនេះ</button>
+                <button class="bg-red-600 hover:bg-red-700 text-white font-medium px-6 py-2.5 rounded-full transition shadow-lg khmer-text">ទិញឥឡូវនេះ</button>
               </div>
             </div>
           </div>
@@ -207,7 +207,7 @@
               <div class="max-w-lg text-white space-y-4">
                 <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight khmer-text">ការបញ្ចុះតម្លៃពិសេស</h2>
                 <p class="text-sm sm:text-base md:text-lg opacity-90 khmer-text">បញ្ចុះតម្លៃរហូតដល់ 50% សម្រាប់ការទិញលើកដំបូង</p>
-                <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2.5 rounded-full transition shadow-lg khmer-text">ទិញឥឡូវនេះ</button>
+                <button class="bg-red-600 hover:bg-red-700 text-white font-medium px-6 py-2.5 rounded-full transition shadow-lg khmer-text">ទិញឥឡូវនេះ</button>
               </div>
             </div>
           </div>
@@ -219,7 +219,7 @@
               <div class="max-w-lg text-white space-y-4">
                 <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight khmer-text">ហាងថ្មីបើកដំណើរការ</h2>
                 <p class="text-sm sm:text-base md:text-lg opacity-90 khmer-text">មកកាន់ហាងរបស់យើង ដើម្បីទទួលបានការបញ្ចុះតម្លៃពិសេស</p>
-                <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2.5 rounded-full transition shadow-lg khmer-text">ទិញឥឡូវនេះ</button>
+                <button class="bg-red-600 hover:bg-red-700 text-white font-medium px-6 py-2.5 rounded-full transition shadow-lg khmer-text">ទិញឥឡូវនេះ</button>
               </div>
             </div>
           </div>
@@ -235,7 +235,7 @@
 
         <!-- Dot indicators -->
         <div class="absolute bottom-4 left-0 right-0 z-20 flex justify-center gap-2">
-          <button data-dot="0" class="carousel-dot w-3 h-3 rounded-full bg-blue-600 shadow-md transition" aria-label="Go to slide 1"></button>
+          <button data-dot="0" class="carousel-dot w-3 h-3 rounded-full bg-red-600 shadow-md transition" aria-label="Go to slide 1"></button>
           <button data-dot="1" class="carousel-dot w-3 h-3 rounded-full bg-white/50 shadow-md transition" aria-label="Go to slide 2"></button>
           <button data-dot="2" class="carousel-dot w-3 h-3 rounded-full bg-white/50 shadow-md transition" aria-label="Go to slide 3"></button>
         </div>
@@ -249,51 +249,51 @@
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
 
           <!-- Category 1: Clothing (t-shirt icon) -->
-          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-blue-50 transition group">
+          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-red-50 transition group">
             <svg class="category-icon w-8 h-8 text-gray-600 mb-2" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 4.5l3 1.5a2.25 2.25 0 011.243 2.014v.986a2.25 2.25 0 01-.659 1.591L17.25 12.5v6.75A1.75 1.75 0 0115.5 21h-7A1.75 1.75 0 016.75 19.25V12.5L4.666 10.59A2.25 2.25 0 014.007 9V8.014A2.25 2.25 0 015.25 6L8.25 4.5m7.5 0a3.75 3.75 0 01-7.5 0" />
             </svg>
-            <span class="text-sm font-medium khmer-text group-hover:text-blue-600 transition">សម្លៀកបំពាក់</span>
+            <span class="text-sm font-medium khmer-text group-hover:text-red-600 transition">សម្លៀកបំពាក់</span>
           </a>
 
           <!-- Category 2: Phones (device-mobile icon) -->
-          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-blue-50 transition group">
+          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-red-50 transition group">
             <svg class="category-icon w-8 h-8 text-gray-600 mb-2" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
             </svg>
-            <span class="text-sm font-medium khmer-text group-hover:text-blue-600 transition">ទូរស័ព្ទ</span>
+            <span class="text-sm font-medium khmer-text group-hover:text-red-600 transition">ទូរស័ព្ទ</span>
           </a>
 
           <!-- Category 3: Cosmetics (sparkles icon) -->
-          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-blue-50 transition group">
+          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-red-50 transition group">
             <svg class="category-icon w-8 h-8 text-gray-600 mb-2" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
             </svg>
-            <span class="text-sm font-medium khmer-text group-hover:text-blue-600 transition">គ្រឿងសម្អាង</span>
+            <span class="text-sm font-medium khmer-text group-hover:text-red-600 transition">គ្រឿងសម្អាង</span>
           </a>
 
           <!-- Category 4: Furniture (home icon) -->
-          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-blue-50 transition group">
+          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-red-50 transition group">
             <svg class="category-icon w-8 h-8 text-gray-600 mb-2" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
             </svg>
-            <span class="text-sm font-medium khmer-text group-hover:text-blue-600 transition">គ្រឿងសង្ហារឹម</span>
+            <span class="text-sm font-medium khmer-text group-hover:text-red-600 transition">គ្រឿងសង្ហារឹម</span>
           </a>
 
           <!-- Category 5: Shoes (shoe icon – custom) -->
-          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-blue-50 transition group">
+          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-red-50 transition group">
             <svg class="category-icon w-8 h-8 text-gray-600 mb-2" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3 12.75l2.25.75 1.5-1.5c.75-.75 1.5-1.5 1.5-3 0 0 .75 3 4.5 4.5 3.75 1.5 6.75 1.5 6.75 1.5l1.5-1.5V9l-3-1.5-1.5 1.5-3-1.5-3 1.5L6 7.5 3 9v3.75z M3 12.75v3c0 .621.504 1.125 1.125 1.125h15.75c.621 0 1.125-.504 1.125-1.125v-1.125" />
             </svg>
-            <span class="text-sm font-medium khmer-text group-hover:text-blue-600 transition">ស្បែកជើង</span>
+            <span class="text-sm font-medium khmer-text group-hover:text-red-600 transition">ស្បែកជើង</span>
           </a>
 
           <!-- Category 6: Watches (clock icon) -->
-          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-blue-50 transition group">
+          <a href="#" class="category-card bg-gray-50 p-4 rounded-2xl shadow-sm flex flex-col items-center text-center hover:bg-red-50 transition group">
             <svg class="category-icon w-8 h-8 text-gray-600 mb-2" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span class="text-sm font-medium khmer-text group-hover:text-blue-600 transition">នាឡិកា</span>
+            <span class="text-sm font-medium khmer-text group-hover:text-red-600 transition">នាឡិកា</span>
           </a>
 
         </div>
@@ -314,8 +314,8 @@
                 ★ ★ ★ ★ ☆ <span class="text-gray-400 text-xs ml-1">(4.0)</span>
               </div>
               <div class="flex items-center justify-between mt-2">
-                <span class="text-lg font-bold text-blue-600">$49.99</span>
-                <button class="add-to-cart bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium px-4 py-2 rounded-full transition khmer-text">បន្ថែម</button>
+                <span class="text-lg font-bold text-red-600">$49.99</span>
+                <button class="add-to-cart bg-red-600 hover:bg-red-700 text-white text-xs font-medium px-4 py-2 rounded-full transition khmer-text">បន្ថែម</button>
               </div>
             </div>
           </div>
@@ -328,8 +328,8 @@
                 ★ ★ ★ ★ ★ <span class="text-gray-400 text-xs ml-1">(5.0)</span>
               </div>
               <div class="flex items-center justify-between mt-2">
-                <span class="text-lg font-bold text-blue-600">$129.00</span>
-                <button class="add-to-cart bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium px-4 py-2 rounded-full transition khmer-text">បន្ថែម</button>
+                <span class="text-lg font-bold text-red-600">$129.00</span>
+                <button class="add-to-cart bg-red-600 hover:bg-red-700 text-white text-xs font-medium px-4 py-2 rounded-full transition khmer-text">បន្ថែម</button>
               </div>
             </div>
           </div>
@@ -342,8 +342,8 @@
                 ★ ★ ★ ★ ☆ <span class="text-gray-400 text-xs ml-1">(4.5)</span>
               </div>
               <div class="flex items-center justify-between mt-2">
-                <span class="text-lg font-bold text-blue-600">$75.00</span>
-                <button class="add-to-cart bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium px-4 py-2 rounded-full transition khmer-text">បន្ថែម</button>
+                <span class="text-lg font-bold text-red-600">$75.00</span>
+                <button class="add-to-cart bg-red-600 hover:bg-red-700 text-white text-xs font-medium px-4 py-2 rounded-full transition khmer-text">បន្ថែម</button>
               </div>
             </div>
           </div>
@@ -356,8 +356,8 @@
                 ★ ★ ★ ★ ☆ <span class="text-gray-400 text-xs ml-1">(4.2)</span>
               </div>
               <div class="flex items-center justify-between mt-2">
-                <span class="text-lg font-bold text-blue-600">$299.00</span>
-                <button class="add-to-cart bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium px-4 py-2 rounded-full transition khmer-text">បន្ថែម</button>
+                <span class="text-lg font-bold text-red-600">$299.00</span>
+                <button class="add-to-cart bg-red-600 hover:bg-red-700 text-white text-xs font-medium px-4 py-2 rounded-full transition khmer-text">បន្ថែម</button>
               </div>
             </div>
           </div>
@@ -380,13 +380,13 @@
     </section>
 
     <!-- ========== NEWSLETTER / CTA ========== -->
-    <section class="bg-blue-600 py-16">
+    <section class="bg-red-600 py-16">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4 khmer-text">ទទួលបានព័ត៌មានថ្មីៗ</h2>
-        <p class="text-blue-100 mb-6 khmer-text">ចុះឈ្មោះដើម្បីទទួលបានការបញ្ចុះតម្លៃ និងព័ត៌មានអំពីផលិតផលថ្មីៗ</p>
+        <p class="text-red-100 mb-6 khmer-text">ចុះឈ្មោះដើម្បីទទួលបានការបញ្ចុះតម្លៃ និងព័ត៌មានអំពីផលិតផលថ្មីៗ</p>
         <form class="flex flex-col sm:flex-row justify-center gap-3 max-w-md mx-auto">
-          <input type="email" placeholder="អ៊ីមែលរបស់អ្នក" class="px-5 py-3 rounded-full text-gray-900 w-full focus:outline-none focus:ring-2 focus:ring-blue-300 khmer-text" aria-label="Email address">
-          <button type="submit" class="bg-white text-blue-600 font-medium px-8 py-3 rounded-full hover:bg-gray-100 transition shadow-md khmer-text whitespace-nowrap">ជាវព័ត៌មាន</button>
+          <input type="email" placeholder="អ៊ីមែលរបស់អ្នក" class="px-5 py-3 rounded-full text-gray-900 w-full focus:outline-none focus:ring-2 focus:ring-red-300 khmer-text" aria-label="Email address">
+          <button type="submit" class="bg-white text-red-600 font-medium px-8 py-3 rounded-full hover:bg-gray-100 transition shadow-md khmer-text whitespace-nowrap">ជាវព័ត៌មាន</button>
         </form>
       </div>
     </section>
@@ -399,20 +399,20 @@
         <!-- Brand -->
         <div class="space-y-4">
           <div class="flex items-center gap-2">
-            <svg class="w-7 h-7 text-blue-500" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <svg class="w-7 h-7 text-red-500" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007z" />
             </svg>
             <span class="text-xl font-semibold">YourBrand</span>
           </div>
           <p class="text-gray-400 text-sm khmer-text leading-relaxed">ហាងរបស់យើងផ្តល់ជូននូវផលិតផលគុណភាពខ្ពស់ ជាមួយសេវាកម្មដ៏ល្អប្រសើរ។</p>
           <div class="flex gap-4 pt-2">
-            <a href="#" aria-label="Facebook" class="text-gray-400 hover:text-blue-400 transition">
+            <a href="#" aria-label="Facebook" class="text-gray-400 hover:text-red-400 transition">
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879v-6.988h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
             </a>
-            <a href="#" aria-label="Instagram" class="text-gray-400 hover:text-blue-400 transition">
+            <a href="#" aria-label="Instagram" class="text-gray-400 hover:text-red-400 transition">
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
             </a>
-            <a href="#" aria-label="Twitter" class="text-gray-400 hover:text-blue-400 transition">
+            <a href="#" aria-label="Twitter" class="text-gray-400 hover:text-red-400 transition">
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
             </a>
           </div>
@@ -422,11 +422,11 @@
         <div>
           <h3 class="text-lg font-semibold mb-4 khmer-text">តំណភ្ជាប់រហ័ស</h3>
           <ul class="space-y-2 text-gray-400 text-sm">
-            <li><a href="#" class="hover:text-blue-400 transition khmer-text">ទំព័រដើម</a></li>
-            <li><a href="#" class="hover:text-blue-400 transition khmer-text">ផលិតផល</a></li>
-            <li><a href="#" class="hover:text-blue-400 transition khmer-text">ប្រភេទ</a></li>
-            <li><a href="#" class="hover:text-blue-400 transition khmer-text">ម៉ាក</a></li>
-            <li><a href="#" class="hover:text-blue-400 transition khmer-text">អំពីយើង</a></li>
+            <li><a href="#" class="hover:text-red-400 transition khmer-text">ទំព័រដើម</a></li>
+            <li><a href="#" class="hover:text-red-400 transition khmer-text">ផលិតផល</a></li>
+            <li><a href="#" class="hover:text-red-400 transition khmer-text">ប្រភេទ</a></li>
+            <li><a href="#" class="hover:text-red-400 transition khmer-text">ម៉ាក</a></li>
+            <li><a href="#" class="hover:text-red-400 transition khmer-text">អំពីយើង</a></li>
           </ul>
         </div>
 
@@ -434,11 +434,11 @@
         <div>
           <h3 class="text-lg font-semibold mb-4 khmer-text">សេវាកម្មអតិថិជន</h3>
           <ul class="space-y-2 text-gray-400 text-sm">
-            <li><a href="#" class="hover:text-blue-400 transition khmer-text">គោលនយោបាយដឹកជញ្ជូន</a></li>
-            <li><a href="#" class="hover:text-blue-400 transition khmer-text">ការប្តូរទំនិញ</a></li>
-            <li><a href="#" class="hover:text-blue-400 transition khmer-text">សំណួរញឹកញាប់</a></li>
-            <li><a href="#" class="hover:text-blue-400 transition khmer-text">ភាពឯកជន</a></li>
-            <li><a href="#" class="hover:text-blue-400 transition khmer-text">លក្ខខណ្ឌប្រើប្រាស់</a></li>
+            <li><a href="#" class="hover:text-red-400 transition khmer-text">គោលនយោបាយដឹកជញ្ជូន</a></li>
+            <li><a href="#" class="hover:text-red-400 transition khmer-text">ការប្តូរទំនិញ</a></li>
+            <li><a href="#" class="hover:text-red-400 transition khmer-text">សំណួរញឹកញាប់</a></li>
+            <li><a href="#" class="hover:text-red-400 transition khmer-text">ភាពឯកជន</a></li>
+            <li><a href="#" class="hover:text-red-400 transition khmer-text">លក្ខខណ្ឌប្រើប្រាស់</a></li>
           </ul>
         </div>
 
@@ -511,9 +511,9 @@
         dots.forEach((dot, i) => {
           if (i === index) {
             dot.classList.remove('bg-white/50');
-            dot.classList.add('bg-blue-600');
+            dot.classList.add('bg-red-600');
           } else {
-            dot.classList.remove('bg-blue-600');
+            dot.classList.remove('bg-red-600');
             dot.classList.add('bg-white/50');
           }
         });
